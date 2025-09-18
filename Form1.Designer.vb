@@ -30,8 +30,8 @@ Partial Class Form1
         ck3 = New CheckBox()
         cb1 = New ComboBox()
         gb1 = New GroupBox()
-        rb1 = New RadioButton()
         rb2 = New RadioButton()
+        rb1 = New RadioButton()
         btn1 = New Button()
         gb1.SuspendLayout()
         SuspendLayout()
@@ -114,17 +114,6 @@ Partial Class Form1
         gb1.TabStop = False
         gb1.Text = "GroupBox1"
         ' 
-        ' rb1
-        ' 
-        rb1.AutoSize = True
-        rb1.Location = New Point(27, 19)
-        rb1.Name = "rb1"
-        rb1.Size = New Size(51, 19)
-        rb1.TabIndex = 0
-        rb1.TabStop = True
-        rb1.Text = "Male"
-        rb1.UseVisualStyleBackColor = True
-        ' 
         ' rb2
         ' 
         rb2.AutoSize = True
@@ -136,11 +125,22 @@ Partial Class Form1
         rb2.Text = "Female"
         rb2.UseVisualStyleBackColor = True
         ' 
+        ' rb1
+        ' 
+        rb1.AutoSize = True
+        rb1.Location = New Point(27, 19)
+        rb1.Name = "rb1"
+        rb1.Size = New Size(51, 19)
+        rb1.TabIndex = 0
+        rb1.TabStop = True
+        rb1.Text = "Male"
+        rb1.UseVisualStyleBackColor = True
+        ' 
         ' btn1
         ' 
         btn1.Location = New Point(361, 292)
         btn1.Name = "btn1"
-        btn1.Size = New Size(75, 23)
+        btn1.Size = New Size(96, 23)
         btn1.TabIndex = 8
         btn1.Text = "Show Result"
         btn1.UseVisualStyleBackColor = True
